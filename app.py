@@ -1182,7 +1182,7 @@ def all_exception_handler(error):
 
 def main():
     init_db()
-    app.run('0.0.0.0', debug=True, threaded=False)
+    app.run('0.0.0.0',port=80, debug=True, threaded=False)
 
 
 if __name__ == '__main__':
